@@ -1,0 +1,160 @@
+* {
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.heading {
+    font-size: 12px;
+    padding-top: 5%;
+}
+body {
+    margin: 4%;
+}
+.intro {
+    padding-bottom: 5%;
+}
+a {
+    font-size: inherit;
+    color: black;
+}
+img {
+    max-width: 100%;
+  }
+div {
+    line-height: 1.5;
+    margin-bottom: 5%;
+}
+li {
+    padding-bottom: 5%;
+    list-style: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.prof-img {
+    max-width: 70%;
+}
+.portfolio-container {
+    padding-bottom: 5%;
+}
+
+h2 {
+    font-size: 15px;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+h3 {
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.contact-container {
+    padding-top: 12%;
+    margin-bottom: 5%;
+}
+.link {
+    color: green;
+}
+footer {
+    margin-top: 20%;
+    border-top: solid rgb(178, 178, 178) 1px; 
+}
+.nav-footer {
+    display: none;
+}
+
+.back-to-top {
+    float: right;
+    padding: 3%;
+    font-size: 12px;
+}
+h4 {
+    float: left;
+    padding: 3%;
+    font-size: 12px;
+}
+h5 {
+    font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+
+    body {
+        margin: 2%;
+    }
+   
+    ul,
+    li {
+       display: inline-block;
+       padding-top: 2%;
+       padding-bottom: 5%;
+   }
+
+  h2 {
+    font-size: 15px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .prof-img {
+      float: right;
+      max-width: 30%;
+  }
+
+.project {
+    display: inline-block;
+    width: 21em;
+    margin: .5%;
+}
+
+.p-intro{
+    text-align: left;
+    margin: auto;
+}
+
+.intro{
+    display: inline-block;
+}
+
+.contact-container {
+    max-width: 70%;
+    margin: auto;
+    padding-top: 0%;
+}
+  
+.back-to-top {
+    display: none;
+}
+
+.nav-footer {
+    display: block;
+    float: right;
+    padding: 3%;
+    font-size: 12px;
+ }
+
+ }
+
+ 
+
+@media screen and (min-width: 1024px) {
+ #top {
+     float: left;
+     margin-top: 2%;
+ }
+ ul {
+     float: right;
+ }
+.p-intro {
+    width: 95%;
+}
+h2 {
+    padding-top: 2%;
+}
+
+.project {
+    width: 22em;
+    font-size: small;
+    margin: .5em;
+}
+
+}
