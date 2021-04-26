@@ -1,7 +1,7 @@
 * {
     text-align: center;
     text-decoration: none;
-    font-family: "Rubik" Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif, "Rubik", Verdana, Geneva, Tahoma;
 }
 .heading {
     font-size: 12px;
@@ -102,13 +102,16 @@ h5 {
 
 .project {
     display: inline-block;
-    width: 21em;
+    width: 22em;
     margin: .5%;
 }
 
 .p-intro{
     text-align: left;
     margin: auto;
+}
+p {
+    font-size: larger;
 }
 
 .intro{
